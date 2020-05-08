@@ -1,11 +1,11 @@
 def using_push (array, string)
-  array= ["red","orange","yellow","green","blue","indigo"]
-  string = array.push("violet")
+  array= ["1","2","3","4","5","6"]
+  string = array.push("7")
 end
 
 def using_unshift (array, string)
-  array = ["one", "two", "three", "four" ]
-  string = array.unshift("five")
+  array = ["1", "2", "3", "4" ]
+  string = array.unshift("0")
 end
 
 def using_pop (array)
