@@ -17,10 +17,12 @@ def pop_with_args (array)
 end
 
 def using_shift (array)
-  array.shift()
-  array
+  shifted_array = array.shift()
+  p shifted_array
 end
 
 def using_shift (array)
-  array.shift(2)
+
 end
+
+
