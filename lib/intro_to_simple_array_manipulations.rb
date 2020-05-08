@@ -5,7 +5,7 @@ end
 
 def using_unshift (array, string)
   array = ["1", "2", "3", "4" ]
-  string = array.unshift("0")
+  string = array.unshift("Staten Island")
 end
 
 def using_pop (array)
