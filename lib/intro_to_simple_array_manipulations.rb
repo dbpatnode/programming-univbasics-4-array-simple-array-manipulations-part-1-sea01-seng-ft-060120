@@ -4,8 +4,8 @@ def using_push (array, string)
 end
 
 def using_unshift (array, string)
-  bouroughs_in_nyc = ["Brooklyn", "Queens", "Manhattan", "Bronx"]
-  new_neighborhood = bouroughs_in_nyc.unshift("Staten Island")
+  array = []
+  string = array.unshift()
 end
 
 def using_pop (array)
@@ -18,4 +18,8 @@ end
 
 def using_shift (array)
   array.shift()
+end
+
+def using_shift (array)
+  array.shift(2)
 end
