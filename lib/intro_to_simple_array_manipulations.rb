@@ -1,6 +1,6 @@
 def using_push (array, string)
   array= ["1","2","3","4","5","6"]
-  string = array.push("7")
+  string = array.push("violet")
 end
 
 def using_unshift (array, string)
